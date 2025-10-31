@@ -32,7 +32,7 @@ EOF
 chmod +x "$tmp"
 
 # --- 3. Запускаем терминал в foreground ---
-xfce4-terminal --disable-server --hold --command "$tmp"
+xfce4-terminal --disable-server --command "$tmp"
 
 # --- 4. Ждём закрытия ---
 wait
