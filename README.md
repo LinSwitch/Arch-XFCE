@@ -194,7 +194,7 @@ git clone https://github.com/linswitch/Arch-XFCE.git
 
 Скопируйте скрипты
 ```bash
-cp -r ~/Arch-XFCE/scripts ~/.config/
+cp -r Arch-XFCE/scripts ~/.config/
 ```
 Добавьте на панель плагин **Общий монитор (Generic Monitor)**
 
