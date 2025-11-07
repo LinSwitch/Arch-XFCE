@@ -38,7 +38,7 @@ xfce4-terminal --disable-server --command "$tmp"
 wait
 
 # --- 5. Уведомление и refresh ---
-notify-send "Обновление завершено" "Проверка плагина обновлений..."
+notify-send "Обновление завершено"
 xfce4-panel --plugin-event=genmon-"$plugin_id":refresh:bool:true
 
 # --- 6. Чистим за собой ---
