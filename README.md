@@ -189,12 +189,12 @@ sudo systemctl enable --now bluetooth
 
 ```bash
 cd /tmp
-git clone https://github.com/linswitch/Arch-XFCE.git 
+git clone https://github.com/linswitch/arch-xfce.git 
 ```
 
 Скопируйте скрипты
 ```bash
-cp -r Arch-XFCE/scripts ~/.config/
+cp -r arch-xfce/scripts ~/.config/
 ```
 Добавьте на панель плагин **Общий монитор (Generic Monitor)**
 
